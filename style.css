@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+  }
+  
+  h1 {
+    color: #FF6A13; /* Pantone Orange */
+  }
+  
+  .container {
+    margin-top: 50px;
+  }
+  
+  button {
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #FF6A13; /* Pantone Orange */
+    border: none;
+    color: white;
+    margin-top: 20px;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+  }
+  
+  #spin-result {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  canvas {
+    border: 5px solid grey;
+    margin-top: 30px;
+  }
+  
+  #user-name {
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  #report {
+    margin-top: 50px;
+    color: #333;
+  }
+  
+  #report-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #report-list li {
+    font-size: 18px;
+    padding: 5px;
+  }
+  
