@@ -3,16 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Spin the Wheel Jackpot</title>
+  <title>VIASERVICE VALENTINE'S SECRETO SPIN</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Spin the Wheel Jackpot!</h1>
-  
-  <div id="wheel" class="wheel">
-    <!-- Circle to represent the wheel -->
-    <div id="spin-result">Click to Spin</div>
-    <button onclick="spinWheel()">Spin</button>
+  <h1>VIASERVICE VALENTINE'S SECRETO SPIN</h1>
+
+  <div class="container">
+    <input type="text" id="user-name" placeholder="Enter your name">
+    <button id="spin-button" onclick="spinWheel()" disabled>Spin</button>
+    <p id="spin-result">Click to Spin</p>
+  </div>
+
+  <canvas id="wheel" width="500" height="500"></canvas>
+  <canvas id="fireworks" width="500" height="500"></canvas>
+
+  <div id="report">
+    <h2>Spin Report</h2>
+    <ul id="report-list"></ul>
   </div>
 
   <script src="script.js"></script>
